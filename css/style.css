@@ -151,3 +151,19 @@ li {
   color: white;
   font-size: 26px;
 }
+.first::first-line {
+  position: absolute;
+  width: 77px;
+  height: 33px;
+  left: 445px;
+  top: 238px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
