@@ -1,0 +1,153 @@
+* {
+  transition: all 0.1s ease-in;
+}
+.main_unit {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+
+  background: #3399cc;
+  border: 24px solid #2b81ac;
+  box-sizing: border-box;
+}
+
+.top_text {
+  position: absolute;
+  width: 252px;
+  height: 33px;
+  left: 245px;
+  top: 136px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.table {
+  position: absolute;
+  width: 950px;
+  height: 658px;
+  left: 245px;
+  top: 186px;
+
+  background: #ffffff;
+}
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+.first {
+  position: absolute;
+  width: 466px;
+  height: 157px;
+  left: 251px;
+  top: 193px;
+
+  background: #3399cc;
+}
+
+.second {
+  position: absolute;
+  width: 230px;
+  height: 157px;
+  left: 723px;
+  top: 193px;
+
+  background: #33cccc;
+}
+.third {
+  position: absolute;
+  width: 230px;
+  height: 157px;
+  left: 959px;
+  top: 193px;
+
+  background: #996699;
+}
+.fourth {
+  position: absolute;
+  width: 230px;
+  height: 157px;
+  left: 251px;
+  top: 356px;
+
+  background: #c24747;
+}
+.fifth {
+  position: absolute;
+  width: 230px;
+  height: 157px;
+  left: 487px;
+  top: 356px;
+
+  background: #e2674a;
+}
+.sixth {
+  position: absolute;
+  width: 230px;
+  height: 157px;
+  left: 723px;
+  top: 356px;
+
+  background: #ffcc66;
+}
+.seventh {
+  position: absolute;
+  width: 230px;
+  height: 157px;
+  left: 959px;
+  top: 356px;
+
+  background: #99cc99;
+}
+.eighth {
+  position: absolute;
+  width: 230px;
+  height: 157px;
+  left: 251px;
+  top: 519px;
+
+  background: #669999;
+}
+.ninth {
+  position: absolute;
+  width: 466px;
+  height: 157px;
+  left: 487px;
+  top: 519px;
+
+  background: #cc6699;
+}
+.tenth {
+  position: absolute;
+  width: 230px;
+  height: 157px;
+  left: 959px;
+  top: 519px;
+
+  background: #339966;
+}
+.eleventh {
+  position: absolute;
+  width: 938px;
+  height: 157px;
+  left: 251px;
+  top: 682px;
+
+  background: #666699;
+}
+.wi {
+  position: absolute;
+  left: 34.86%;
+  right: 62.78%;
+  top: 13.28%;
+  bottom: 84.18%;
+  color: white;
+  font-size: 26px;
+}
