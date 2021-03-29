@@ -224,7 +224,6 @@ li {
 .icon {
   display: flex;
   left: 13%;
-  /* justify-content: space-around; */
   position: relative;
   background: #ffffff;
 }
