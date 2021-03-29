@@ -46,12 +46,14 @@
   color: #ffffff;
 }
 .table {
+  display: flex;
+  flex-wrap: wrap;
   position: absolute;
   width: 950px;
   height: 658px;
   left: 245px;
   top: 186px;
-
+  padding: 0;
   background: #ffffff;
 }
 
@@ -59,7 +61,12 @@ li {
   list-style-type: none; /* Убираем маркеры */
 }
 .first {
-  position: absolute;
+  margin-left: 6px;
+  margin-top: 7px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+
+  /* position: absolute; */
   width: 466px;
   height: 157px;
   left: 251px;
@@ -69,7 +76,12 @@ li {
 }
 
 .second {
-  position: absolute;
+  margin-left: 0px;
+  margin-top: 7px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+
+  /* position: absolute; */
   width: 230px;
   height: 157px;
   left: 723px;
@@ -78,7 +90,11 @@ li {
   background: #33cccc;
 }
 .third {
-  position: absolute;
+  margin-left: 0px;
+  margin-top: 7px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  /* position: absolute; */
   width: 230px;
   height: 157px;
   left: 959px;
@@ -87,7 +103,9 @@ li {
   background: #996699;
 }
 .fourth {
-  position: absolute;
+  margin-left: 6px;
+  margin-top: 0px;
+  /* position: absolute; */
   width: 230px;
   height: 157px;
   left: 251px;
@@ -96,7 +114,9 @@ li {
   background: #c24747;
 }
 .fifth {
-  position: absolute;
+  margin-left: 6px;
+  margin-top: 0px;
+  /* position: absolute; */
   width: 230px;
   height: 157px;
   left: 487px;
@@ -105,7 +125,9 @@ li {
   background: #e2674a;
 }
 .sixth {
-  position: absolute;
+  margin-left: 6px;
+  margin-top: 0px;
+  /* position: absolute; */
   width: 230px;
   height: 157px;
   left: 723px;
@@ -114,7 +136,9 @@ li {
   background: #ffcc66;
 }
 .seventh {
-  position: absolute;
+  margin-left: 6px;
+  margin-top: 0px;
+  /* position: absolute; */
   width: 230px;
   height: 157px;
   left: 959px;
@@ -123,7 +147,9 @@ li {
   background: #99cc99;
 }
 .eighth {
-  position: absolute;
+  margin-left: 6px;
+  margin-top: 6px;
+  /* position: absolute; */
   width: 230px;
   height: 157px;
   left: 251px;
@@ -132,7 +158,9 @@ li {
   background: #669999;
 }
 .ninth {
-  position: absolute;
+  margin-left: 6px;
+  margin-top: 6px;
+  /* position: absolute; */
   width: 466px;
   height: 157px;
   left: 487px;
@@ -141,7 +169,9 @@ li {
   background: #cc6699;
 }
 .tenth {
-  position: absolute;
+  margin-left: 6px;
+  margin-top: 6px;
+  /* position: absolute; */
   width: 230px;
   height: 157px;
   left: 959px;
@@ -150,7 +180,9 @@ li {
   background: #339966;
 }
 .eleventh {
-  position: absolute;
+  margin-left: 6px;
+  margin-top: 6px;
+  /* position: absolute; */
   width: 938px;
   height: 157px;
   left: 251px;
@@ -167,13 +199,14 @@ li {
   color: white;
   font-size: 26px;
 }
-.first::first-line {
-  position: absolute;
-  width: 77px;
+.city {
+  /* position: absolute; */
+  /* width: 77px;
   height: 33px;
   left: 445px;
-  top: 238px;
-
+  top: 238px; */
+  display: flex;
+  justify-content: space-around;
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
@@ -182,4 +215,33 @@ li {
   /* identical to box height */
 
   color: #ffffff;
+}
+.degrees {
+  /* position: absolute; */
+  /* width: 53px;
+  height: 33px;
+  left: 433px;
+  top: 273px; */
+  display: flex;
+  justify-content: space-around;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.icon {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  background: #ffffff;
+}
+li:hover {
+  opacity: 0.9;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
