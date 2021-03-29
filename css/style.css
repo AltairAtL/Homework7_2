@@ -200,11 +200,6 @@ li {
   font-size: 26px;
 }
 .city {
-  /* position: absolute; */
-  /* width: 77px;
-  height: 33px;
-  left: 445px;
-  top: 238px; */
   display: flex;
   justify-content: space-around;
   font-family: Open Sans;
@@ -212,16 +207,10 @@ li {
   font-weight: 600;
   font-size: 24px;
   line-height: 33px;
-  /* identical to box height */
 
   color: #ffffff;
 }
 .degrees {
-  /* position: absolute; */
-  /* width: 53px;
-  height: 33px;
-  left: 433px;
-  top: 273px; */
   display: flex;
   justify-content: space-around;
   font-family: Open Sans;
@@ -229,13 +218,13 @@ li {
   font-weight: 600;
   font-size: 24px;
   line-height: 33px;
-  /* identical to box height */
 
   color: #ffffff;
 }
 .icon {
   display: flex;
-  justify-content: space-around;
+  left: 13%;
+  /* justify-content: space-around; */
   position: relative;
   background: #ffffff;
 }
