@@ -20,7 +20,7 @@
   left: 245px;
   top: 136px;
 
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -36,7 +36,7 @@
   left: 245px;
   top: 863px;
 
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -202,7 +202,7 @@ li {
 .city {
   display: flex;
   justify-content: space-around;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -213,7 +213,7 @@ li {
 .degrees {
   display: flex;
   justify-content: space-around;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
